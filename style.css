@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(simon-berger-twukN12EN7c-unsplash.jpg);
+    background-size:auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ .container {
+    width: 350px;
+    height: 500px;
+    border-radius: 13px;
+    margin-top: 80px;
+    padding: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+}
+
+
+
+
+
+.list{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #1A2A6C;
+}
+
+.list img{
+    height: 2rem;
+    width: 2rem;
+    
+}
+
+.addTask{
+    width: 350px;
+    border-radius: 30px;
+    background-color: #E8E8E8;
+    margin-top: 20px;
+}
+
+.addTask form{
+    display: flex;
+    justify-content: center;   
+}
+
+.addTask form input{
+    width: 250px;
+    height: 40px;
+    border-radius: 30px 0 0 30px;
+    font-size: 15px;
+    padding-left:20px;
+    border: none;
+    outline: none;
+    background-color: #E8E8E8;
+}
+.addTask form button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #ff4d4d;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #e60000;
+    transform: scale(1.02);
+}
+form input:hover{
+    transform: scale(1.01);
+}
+
+.taskList{
+    width: 75%;
+    height: 400px;
+    text-align: left;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.taskList img{
+    width: 285px;
+    height: 80%;
+
+}
+
+
+ .taskItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  width: 100%;
+}
+
+
+.taskItem span {
+  word-break: break-word;
+  white-space: normal;
+  max-width: calc(100% - 60px); 
+  display: block;
+  line-height: 1.4;
+  font-size: 1.1rem;
+}
+
+
+.text {
+    flex: 4;
+    white-space: nowrap; 
+    font-size: 1.3rem;
+    
+}
+.fa-solid{
+    font-size: 22px;
+}
+.fa-solid:hover{
+    transform: scale(1.08);
+}
+
+
+
+.check{
+    width: 23px;
+    height: 25px;
+    accent-color: red;
+    
+}
+.check:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+@media (max-width:455px) {
+    .container{
+        width: 300px;
+    }
+    .addTask{
+        width: 100%;
+    }
+    .taskList img{
+        width: 250px;
+    }
+
+}
+
+@media (min-height:844px) {
+    .container{
+        margin-top: 200px;
+    }
+
+}
+
