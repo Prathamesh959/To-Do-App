@@ -2,6 +2,10 @@
 
 A simple and responsive To-Do List web application built using HTML, CSS, and JavaScript. It helps users keep track of daily tasks with features like task adding, completion tracking, and localStorage support for persistence.
 
+## 🌐 Live Demo
+
+👉 [Click here to try it out!](https://prathamesh959.github.io/To-Do-App/)  
+
 ## 🚀 Features
 
 - Add new tasks  
